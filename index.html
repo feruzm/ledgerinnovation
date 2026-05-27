@@ -7,36 +7,77 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1 {font-family: "Raleway", Arial, sans-serif}
-h1 {letter-spacing: 6px}
-.w3-row-padding img {margin-bottom: 12px}
+body, h1, h2, h3, p {font-family: "Raleway", Arial, sans-serif;}
+h1, h2 {letter-spacing: 6px;}
+.w3-row-padding img {margin-bottom: 12px;}
+.w3-bar a {padding: 12px;}
+.container {margin: 0 auto; padding: 0 50px; max-width: 1200px;}
+.section {margin-top: 100px;} /* Space from the header for sections */
 </style>
 <body>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+<div class="w3-content container">
 
-<!-- Header -->
-<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-  <h1 class="w3-xlarge">Ledger</h1>
-  <h1>Innovation</h1>
-  
-  <div class="w3-padding-32">
-    <div class="w3-bar w3-border">
-      <a href="#" class="w3-bar-item w3-button">Software Development</a>
-      <a href="#" class="w3-bar-item w3-button w3-light-grey">Consultancy</a>
-      <a href="#" class="w3-bar-item w3-button">Tech. ops</a>
+  <!-- Header -->
+  <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+    <h1 class="w3-xlarge">Ledger</h1>
+    <h1>Innovation</h1>
+    <p class="w3-large">Driving Excellence in Technology and Innovation</p>
+    
+    <div class="w3-padding-32">
+      <div class="w3-bar w3-border">
+        <a href="#about" class="w3-bar-item w3-button">About Us</a>
+        <a href="#services" class="w3-bar-item w3-button">Services</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </header>
+  <br><br><br><br><br>
+  <!-- About Section -->
+  <div id="about" class="w3-container w3-padding-64 w3-light-grey section">
+    <h2>About Us</h2>
+    <p>Ledger Innovation is a leading provider of cutting-edge software development, consultancy, and tech operations. We believe in pushing boundaries to help businesses and individuals achieve their goals through innovative solutions.</p>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services" class="w3-container w3-padding-64 section">
+    <h2>Our Services</h2>
+    <div class="w3-row-padding">
+      <div class="w3-col m4">
+        <h3>Software Development</h3>
+        <p>We build scalable, secure, and user-friendly software tailored to your business needs. Avid contributor and supporter of OpenSource platforms and projects. Web development, mobile app development, blockchain development, expert advisor and other trading software solutions.</p>
+      </div>
+      <div class="w3-col m4">
+        <h3>Consultancy</h3>
+        <p>Our experts provide insights and strategies to help you navigate complex technological challenges. Infrastructure, technology and software support, blockchain and emerging market strategies.</p>
+      </div>
+      <div class="w3-col m4">
+        <h3>Tech Operations</h3>
+        <p>We ensure smooth operations with our comprehensive IT infrastructure and operational services. Our team also offers scaling backend solutions/operations. Making sure critical operations handled with care and scaling in mind. </p>
+      </div>
     </div>
   </div>
-</header>
-  
-<!-- End Page Content -->
-</div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-large"> 
-  <a href="mailto:info@ledgerinnovation.com?Subject=Hello%20there!" target="_top"><i class="fa fa-envelope-o w3-hover-opacity"></i></a>
-</footer>
+
+  <!-- Contact Section -->
+  <div id="contact" class="w3-container w3-padding-64 section">
+    <h2>Contact Us</h2>
+    <p>Have questions or need more information? Get in touch with us!</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-large"> 
+    <a href="mailto:info@ledgerinnovation.com?Subject=Hello%20there!" target="_top"><i class="fa fa-envelope-o w3-hover-opacity"></i></a>
+    <!-- <p>Follow us on social media:</p>
+    <a href="#" class="w3-hover-opacity"><i class="fa fa-facebook-official"></i></a>
+    <a href="#" class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
+    <a href="#" class="w3-hover-opacity"><i class="fa fa-twitter"></i></a> -->
+    <p>&copy; 2025 Ledger Innovation. All rights reserved.</p>
+  </footer>
+
+</div>
 
 </body>
 </html>
+
